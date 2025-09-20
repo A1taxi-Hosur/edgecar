@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Car, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
-import logoPath from "@assets/LL-removebg-preview_1751631586310.png";
+import { getAssetUrl } from "@/lib/assets";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -17,7 +17,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <img 
-                src={logoPath} 
+                src={getAssetUrl("LL-removebg-preview_1751631586310.png")} 
                 alt="Unique Car Accessories" 
                 className="h-10 w-auto" 
               />

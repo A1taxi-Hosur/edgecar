@@ -1,4 +1,5 @@
 // Asset imports for product images
+import logoImage from "@assets/LL-removebg-preview_1751631586310.png";
 import envisionImage from "@assets/envision_1751633056861.webp";
 import exceliteImage from "@assets/excelite_1751633056862.webp";
 import maxxlinkImage from "@assets/maxxlink_1751633056862.webp";
@@ -29,6 +30,7 @@ import heroImage2 from "@assets/1002_1751652556369.png";
 import heroImage3 from "@assets/1003_1751652556368.png";
 
 export const assetMap: Record<string, string> = {
+  "LL-removebg-preview_1751631586310.png": logoImage,
   "envision_1751633056861.webp": envisionImage,
   "excelite_1751633056862.webp": exceliteImage,
   "maxxlink_1751633056862.webp": maxxlinkImage,

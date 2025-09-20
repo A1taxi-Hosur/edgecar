@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoPath from "@assets/LL-removebg-preview_1751631586310.png";
+import { getAssetUrl } from "@/lib/assets";
 
 export default function Navigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -30,7 +30,7 @@ export default function Navigation() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-3">
           <img 
-            src={logoPath} 
+            src={getAssetUrl("LL-removebg-preview_1751631586310.png")} 
             alt="Unique Car Accessories" 
             className="h-12 w-auto" 
           />
