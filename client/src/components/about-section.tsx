@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Tag, Shield, Users } from "lucide-react";
-import luxuryCarDetailingImage from "@assets/Luxury Car Detailing in Action_1751633951336.png";
+import { getAssetUrl } from "@/lib/assets";
 
 export default function AboutSection() {
   const features = [
@@ -43,7 +43,7 @@ export default function AboutSection() {
           
           <div className="flex justify-center">
             <img 
-              src={luxuryCarDetailingImage}
+              src={getAssetUrl("Luxury Car Detailing in Action_1751633951336.png")}
               alt="Professional luxury car detailing services at Unique Car Accessories"
               className="rounded-xl shadow-lg max-w-md w-full"
             />
